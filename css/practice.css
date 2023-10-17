@@ -1,0 +1,52 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding: 10px 30px;
+    color: rgb(9, 0, 134);
+}
+
+.title {
+    font-size: 24px;
+}
+
+.header__nav {
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+    list-style: none;
+}
+
+.header__nav-list:not(:last-child) {
+    margin-right: 30px;
+}
+
+h2 {
+    position: relative;
+    margin: 340px 0 0 0;
+    font-weight: normal;
+    font-size: 65px;
+}
+
+.box {
+    position: absolute;
+    top: 515px;
+    background-color: rgb(9, 0, 134);
+    width: 75%;
+    height: 190px;
+    z-index: 10;
+}
+
+.firstview {
+    position: absolute;
+    top: 170px;
+    right: 0;
+    width: 50%;
+    height: 440px;
+    z-index: 20;
+}
